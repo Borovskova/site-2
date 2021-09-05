@@ -15,20 +15,35 @@ let slider = tns({
     autoplayTimeout: 3000,
     autoplayButtonOutput: false,
     responsive: {
-      400 : {
+      300 : {
         items: 1,
         slideBy: 1,
-        nav: false
+        nav: false,
+        gutter: 23,
       },
-      576 : {
+      400 : {
+        items: 2,
+        slideBy: 1,
+        nav: false,
+        gutter: 33,
+      },
+      500 : {
+        items: 2,
+        slideBy: 1,
+        nav: false,
+        gutter: 33,
+      },
+      650 : {
         items: 2,
         slideBy: 2,
-        nav:false
+        nav:false,
+        gutter: 33,
       },
       768: {
         items: 3,
         slideBy: 3,
-        nav: true
+        nav:false,
+        gutter: 33,
       },
       1200: {
         items: 5,
